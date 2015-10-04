@@ -19,8 +19,11 @@ end
 # Use jquery as the JavaScript library
 gem 'jquery-rails' #, '~> 2.0.0'  
                                   
-#We probably don't need this, but let's add the gem needed for production deploy to Heroku.
-gem 'pg'
+#We probably don't need this, but let's add the gem needed for production deploy to Heroku.     
+#Oh, this is the PostgreSQL gem. OK. 
+group :production do 
+  gem 'pg'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'        
