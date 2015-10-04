@@ -50,6 +50,7 @@ GEM
     mime-types (1.25.1)
     minitest (5.8.1)
     multi_json (1.11.2)
+    pg (0.18.3)
     polyglot (0.3.5)
     rack (1.5.5)
     rack-test (0.6.3)
@@ -105,6 +106,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails
   jquery-rails
+  pg
   rails
   sass-rails
   spring
