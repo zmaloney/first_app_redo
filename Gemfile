@@ -18,7 +18,11 @@ end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails' #, '~> 2.0.0'  
-                                  
+       
+#group :development do
+	gem 'rspec-rails'
+#end
+                           
 #We probably don't need this, but let's add the gem needed for production deploy to Heroku.     
 #Oh, this is the PostgreSQL gem. OK. 
 #group :production do 
