@@ -13,7 +13,7 @@ group :assets do
   # Use CoffeeScript for .js.coffee assets and views
   gem 'coffee-rails' #, '3.2.2'
   # Use Uglifier as compressor for JavaScript assets
-  gem 'uglifier' #, '1.2.3'
+  gem 'uglifier' #, '1.2.3'  
 end
 
 # Use jquery as the JavaScript library
@@ -21,9 +21,9 @@ gem 'jquery-rails' #, '~> 2.0.0'
                                   
 #We probably don't need this, but let's add the gem needed for production deploy to Heroku.     
 #Oh, this is the PostgreSQL gem. OK. 
-group :production do 
+#group :production do 
   gem 'pg'
-end
+#end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'        
@@ -35,7 +35,7 @@ end
 # gem 'capistrano-rails', group: :development
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-# gem 'turbolinks'
+gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
