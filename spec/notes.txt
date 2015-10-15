@@ -1,0 +1,7 @@
+Hey, some notes about rspec and capybara here. 
+
+NB that rspec sets up tests for views in /spec/requests, but it really needs to be in /spec/features to allow Capybara to work correctly. 
+
+Also (duh) I had to add 
+gem capybara
+to the Gemfile. Pleasantly enough, rspec let me know that it wasn't there. 
