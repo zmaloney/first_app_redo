@@ -12,4 +12,9 @@
  *
  *= require_tree .
  *= require_self
- */
+ */          
+
+p.understated {
+	color:gray;   
+	font-size:60%;
+}
