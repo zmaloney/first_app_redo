@@ -1,4 +1,8 @@
 module ApplicationHelper        
+      
+  # since this, like any helper, is available by default to all views 
+  # (but not to controllers), we can use this method in views to replace the existing 
+  # title, if necessary
   
   #return the full title on a per-page basis
   def full_title(page_title) 

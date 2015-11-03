@@ -9,7 +9,11 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
- *
+ *   
+ * My notes : 
+ * NB that the line in application.html.erb "<%= stylesheet_link_tag    'application', media: 'all', ..." 
+ * means that this stylesheet will be included on all pages, for all media (printing, web, etc). 
+ * 
  *= require_tree .
  *= require_self
  */          
